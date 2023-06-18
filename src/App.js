@@ -5,6 +5,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import VideoList from "./components/VideoList/VideoList";
 import VideoDetail from "./components/VideoDetail/VideoDetail";
 import Nav from "./components/Nav/Nav";
+import Footer from "./components/footer/Footer";
 // styles
 import { Container } from "./appStyles.js";
 // Personal Key, it would be hidden for you. Get One!
@@ -35,6 +36,7 @@ function App() {
           handleSelectVideo={(selectedVideo) => setSelectVideo(selectedVideo)}
         />
       </VideoDetail>
+      <Footer />
     </Container>
   );
 }
